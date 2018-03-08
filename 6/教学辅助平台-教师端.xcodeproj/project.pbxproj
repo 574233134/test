@@ -1,0 +1,1328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1C6DEE203C617300374171 /* NewHomeworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C6DDE203C617300374171 /* NewHomeworkViewController.m */; };
+		2E1C6DEF203C617300374171 /* QuestionBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C6DE2203C617300374171 /* QuestionBankViewController.m */; };
+		2E1C6DF0203C617300374171 /* QuestionBankTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C6DE4203C617300374171 /* QuestionBankTableViewCell.m */; };
+		2E1C6DF1203C617300374171 /* ChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C6DE7203C617300374171 /* ChoiceViewController.m */; };
+		2E1C6DF2203C617300374171 /* 方形_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C6DE9203C617300374171 /* 方形_选中.png */; };
+		2E1C6DF3203C617300374171 /* 方形_未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C6DEA203C617300374171 /* 方形_未选中.png */; };
+		2E1C6DF4203C617300374171 /* NewHomeworkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C6DED203C617300374171 /* NewHomeworkTableViewCell.m */; };
+		2E1C6E01203C618000374171 /* NoNetWorkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C6DF7203C618000374171 /* NoNetWorkingView.m */; };
+		2E1C6E02203C618000374171 /* 网络无法连接.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C6DFA203C618000374171 /* 网络无法连接.png */; };
+		2E1C6E03203C618000374171 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C6DFC203C618000374171 /* TitleView.m */; };
+		2E1C6E04203C618000374171 /* Transition2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C6DFF203C618000374171 /* Transition2View.m */; };
+		4604964520396B2700018E66 /* class.png in Resources */ = {isa = PBXBuildFile; fileRef = 4604964420396B2700018E66 /* class.png */; };
+		46068282203B9BFD001374A5 /* CourseInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46068281203B9BFD001374A5 /* CourseInfoViewController.m */; };
+		46068286203BAAC7001374A5 /* CurrentWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46068285203BAAC7001374A5 /* CurrentWorkViewController.m */; };
+		4606828A203BB4F8001374A5 /* 向左箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 46068289203BB4F8001374A5 /* 向左箭头.png */; };
+		4606828E203BE21A001374A5 /* ChoiceQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4606828D203BE21A001374A5 /* ChoiceQuestionViewController.m */; };
+		460C5D9C1FFBC56B0024C0C7 /* FAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 460C5D9B1FFBC56B0024C0C7 /* FAQViewController.m */; };
+		460CA4191FF9DEE9001F3C17 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 460CA4181FF9DEE9001F3C17 /* RegisterViewController.m */; };
+		460CA41C1FF9DF0E001F3C17 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 460CA41B1FF9DF0E001F3C17 /* LoginViewController.m */; };
+		4610A1561FFA0EDA00945876 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 4610A1551FFA0EDA00945876 /* line.png */; };
+		461D15C41FFC8E0E0006F252 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461D15C31FFC8E0E0006F252 /* AboutUsViewController.m */; };
+		461D15C81FFC8EA30006F252 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461D15C71FFC8EA30006F252 /* ChangePasswordViewController.m */; };
+		461D15CC1FFC95DA0006F252 /* ChangeUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461D15CB1FFC95DA0006F252 /* ChangeUserInfoViewController.m */; };
+		4649C2C02001F5F800FB4EDD /* 加号.png in Resources */ = {isa = PBXBuildFile; fileRef = 4649C2BF2001F5F800FB4EDD /* 加号.png */; };
+		4649C44520048648001F88B2 /* 启动3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4649C44420048648001F88B2 /* 启动3.png */; };
+		4649C44920048BC0001F88B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C44820048BC0001F88B2 /* CoreLocation.framework */; };
+		4649C44B20048BCE001F88B2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C44A20048BCE001F88B2 /* Security.framework */; };
+		4649C44D20048BDB001F88B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C44C20048BDB001F88B2 /* CoreGraphics.framework */; };
+		4649C44F20048BE7001F88B2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C44E20048BE7001F88B2 /* MobileCoreServices.framework */; };
+		4649C45120048BEF001F88B2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C45020048BEF001F88B2 /* CFNetwork.framework */; };
+		4649C45320048C03001F88B2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C45220048C03001F88B2 /* CoreTelephony.framework */; };
+		4649C45520048C0B001F88B2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C45420048C0B001F88B2 /* SystemConfiguration.framework */; };
+		4649C45720048C18001F88B2 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C45620048C18001F88B2 /* libz.1.2.5.tbd */; };
+		4649C45920048C2F001F88B2 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C45820048C2F001F88B2 /* libicucore.tbd */; };
+		4649C45B20048C3D001F88B2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C45A20048C3D001F88B2 /* libsqlite3.tbd */; };
+		4649C45D20048C4C001F88B2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C45C20048C4C001F88B2 /* libc++.tbd */; };
+		4649C45F20048C59001F88B2 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4649C45E20048C59001F88B2 /* Photos.framework */; };
+		464BA9371FF9148D0031378B /* 上传_按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 464BA9351FF9148D0031378B /* 上传_按下.png */; };
+		464BA9381FF9148D0031378B /* 上传.png in Resources */ = {isa = PBXBuildFile; fileRef = 464BA9361FF9148D0031378B /* 上传.png */; };
+		464BA93A1FF9202E0031378B /* 头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 464BA9391FF9202E0031378B /* 头像.png */; };
+		464BDF031FF7412F009959D6 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464BDF021FF7412F009959D6 /* MainTabBarController.m */; };
+		464BDF091FF7418F009959D6 /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464BDF081FF7418F009959D6 /* ClassViewController.m */; };
+		464BDF0C1FF741DB009959D6 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464BDF0B1FF741DB009959D6 /* UploadViewController.m */; };
+		464BDF0F1FF741EF009959D6 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464BDF0E1FF741EF009959D6 /* MyViewController.m */; };
+		464BDF121FF7425D009959D6 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464BDF111FF7425D009959D6 /* MyNavigationController.m */; };
+		464C9131200342CA000938FC /* UserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C9130200342CA000938FC /* UserInfoTableViewCell.m */; };
+		464C913620034FFF000938FC /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 464C913520034FFF000938FC /* CustomTextField.m */; };
+		465935B7202ED6450034F59D /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465935B6202ED6450034F59D /* FeedBackViewController.m */; };
+		465935BA202EE4290034F59D /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 465935B9202EE4290034F59D /* CustomTableViewCell.m */; };
+		465935BE202F0AA90034F59D /* 圆形_未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 465935BC202F0AA90034F59D /* 圆形_未选中.png */; };
+		465935BF202F0AA90034F59D /* 圆形_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 465935BD202F0AA90034F59D /* 圆形_选中.png */; };
+		465935C3202F15490034F59D /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 465935C2202F15490034F59D /* UITextView+Placeholder.m */; };
+		465B9D8B202C0B440087D1D5 /* 网络好像不给力.png in Resources */ = {isa = PBXBuildFile; fileRef = 465B9D8A202C0B440087D1D5 /* 网络好像不给力.png */; };
+		46C45D0F1FF76579002E5A51 /* 我的.png in Resources */ = {isa = PBXBuildFile; fileRef = 46C45D091FF76579002E5A51 /* 我的.png */; };
+		46C45D101FF76579002E5A51 /* 我的_按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 46C45D0A1FF76579002E5A51 /* 我的_按下.png */; };
+		46C45D131FF766CB002E5A51 /* 课堂_按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 46C45D111FF766CB002E5A51 /* 课堂_按下.png */; };
+		46C45D141FF766CB002E5A51 /* 课堂.png in Resources */ = {isa = PBXBuildFile; fileRef = 46C45D121FF766CB002E5A51 /* 课堂.png */; };
+		46CB897520296389003773B7 /* appLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CB897420296389003773B7 /* appLogo.png */; };
+		46DFC2D31FF6036700712D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DFC2D21FF6036700712D13 /* main.m */; };
+		46DFC2D61FF6036700712D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DFC2D51FF6036700712D13 /* AppDelegate.m */; };
+		46DFC2DC1FF6036700712D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DFC2DA1FF6036700712D13 /* Main.storyboard */; };
+		46DFC2DE1FF6036700712D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DFC2DD1FF6036700712D13 /* Assets.xcassets */; };
+		46DFC2E11FF6036700712D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DFC2DF1FF6036700712D13 /* LaunchScreen.storyboard */; };
+		46DFC2EC1FF6036700712D13 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DFC2EB1FF6036700712D13 /* __________Tests.m */; };
+		46DFC2F71FF6036700712D13 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DFC2F61FF6036700712D13 /* __________UITests.m */; };
+		46E9782F202AF4A200A23988 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9782E202AF4A200A23988 /* UserManager.m */; };
+		46E97833202B14BF00A23988 /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E97832202B14BF00A23988 /* TransitionView.m */; };
+		46E97837202B19C900A23988 /* NoClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E97836202B19C900A23988 /* NoClassView.m */; };
+		46E9783E202B446900A23988 /* FailedLoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9783D202B446900A23988 /* FailedLoding.m */; };
+		46F23D2720024950005BE629 /* NewClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F23D2620024950005BE629 /* NewClassViewController.m */; };
+		46F23D2920024C2E005BE629 /* 上传图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F23D2820024C2E005BE629 /* 上传图片.png */; };
+		8BEB84AB34B067293E6EB0AB /* libPods-教学辅助平台-教师端Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF252D0439B0C3C0B0B265B /* libPods-教学辅助平台-教师端Tests.a */; };
+		B4627843BA912BA4537CE6D1 /* libPods-教学辅助平台-教师端UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8F85696DC8ADEF3A4248A3 /* libPods-教学辅助平台-教师端UITests.a */; };
+		E7BA11B7C578F777F239F360 /* libPods-教学辅助平台-教师端.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8C2DE2CA86FD49AB341DAB /* libPods-教学辅助平台-教师端.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46DFC2E81FF6036700712D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DFC2C61FF6036700712D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DFC2CD1FF6036700712D13;
+			remoteInfo = "教学辅助平台-教师端";
+		};
+		46DFC2F31FF6036700712D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DFC2C61FF6036700712D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DFC2CD1FF6036700712D13;
+			remoteInfo = "教学辅助平台-教师端";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AAF099DCB2D7695C39FC5EE /* Pods-教学辅助平台-教师端Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-教学辅助平台-教师端Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-教学辅助平台-教师端Tests/Pods-教学辅助平台-教师端Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		223CC552E43E4FCCBE2BB660 /* Pods-教学辅助平台-教师端.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-教学辅助平台-教师端.release.xcconfig"; path = "Pods/Target Support Files/Pods-教学辅助平台-教师端/Pods-教学辅助平台-教师端.release.xcconfig"; sourceTree = "<group>"; };
+		2E1C6DDD203C617300374171 /* NewHomeworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewHomeworkViewController.h; sourceTree = "<group>"; };
+		2E1C6DDE203C617300374171 /* NewHomeworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewHomeworkViewController.m; sourceTree = "<group>"; };
+		2E1C6DE1203C617300374171 /* QuestionBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionBankViewController.h; sourceTree = "<group>"; };
+		2E1C6DE2203C617300374171 /* QuestionBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionBankViewController.m; sourceTree = "<group>"; };
+		2E1C6DE4203C617300374171 /* QuestionBankTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionBankTableViewCell.m; sourceTree = "<group>"; };
+		2E1C6DE5203C617300374171 /* QuestionBankTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionBankTableViewCell.h; sourceTree = "<group>"; };
+		2E1C6DE6203C617300374171 /* ChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceViewController.h; sourceTree = "<group>"; };
+		2E1C6DE7203C617300374171 /* ChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceViewController.m; sourceTree = "<group>"; };
+		2E1C6DE9203C617300374171 /* 方形_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "方形_选中.png"; sourceTree = "<group>"; };
+		2E1C6DEA203C617300374171 /* 方形_未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "方形_未选中.png"; sourceTree = "<group>"; };
+		2E1C6DEC203C617300374171 /* NewHomeworkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewHomeworkTableViewCell.h; sourceTree = "<group>"; };
+		2E1C6DED203C617300374171 /* NewHomeworkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewHomeworkTableViewCell.m; sourceTree = "<group>"; };
+		2E1C6DF7203C618000374171 /* NoNetWorkingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoNetWorkingView.m; sourceTree = "<group>"; };
+		2E1C6DF8203C618000374171 /* NoNetWorkingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoNetWorkingView.h; sourceTree = "<group>"; };
+		2E1C6DFA203C618000374171 /* 网络无法连接.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "网络无法连接.png"; sourceTree = "<group>"; };
+		2E1C6DFC203C618000374171 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		2E1C6DFD203C618000374171 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		2E1C6DFF203C618000374171 /* Transition2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transition2View.m; sourceTree = "<group>"; };
+		2E1C6E00203C618000374171 /* Transition2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transition2View.h; sourceTree = "<group>"; };
+		4604964420396B2700018E66 /* class.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class.png; sourceTree = "<group>"; };
+		46068280203B9BFD001374A5 /* CourseInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseInfoViewController.h; sourceTree = "<group>"; };
+		46068281203B9BFD001374A5 /* CourseInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseInfoViewController.m; sourceTree = "<group>"; };
+		46068284203BAAC7001374A5 /* CurrentWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentWorkViewController.h; sourceTree = "<group>"; };
+		46068285203BAAC7001374A5 /* CurrentWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentWorkViewController.m; sourceTree = "<group>"; };
+		46068289203BB4F8001374A5 /* 向左箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向左箭头.png"; sourceTree = "<group>"; };
+		4606828C203BE21A001374A5 /* ChoiceQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceQuestionViewController.h; sourceTree = "<group>"; };
+		4606828D203BE21A001374A5 /* ChoiceQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceQuestionViewController.m; sourceTree = "<group>"; };
+		460C5D9A1FFBC56B0024C0C7 /* FAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAQViewController.h; sourceTree = "<group>"; };
+		460C5D9B1FFBC56B0024C0C7 /* FAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAQViewController.m; sourceTree = "<group>"; };
+		460CA4171FF9DEE9001F3C17 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		460CA4181FF9DEE9001F3C17 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		460CA41A1FF9DF0E001F3C17 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		460CA41B1FF9DF0E001F3C17 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4610A1551FFA0EDA00945876 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		461D15C21FFC8E0E0006F252 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		461D15C31FFC8E0E0006F252 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		461D15C61FFC8EA30006F252 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		461D15C71FFC8EA30006F252 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		461D15CA1FFC95DA0006F252 /* ChangeUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeUserInfoViewController.h; sourceTree = "<group>"; };
+		461D15CB1FFC95DA0006F252 /* ChangeUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeUserInfoViewController.m; sourceTree = "<group>"; };
+		4649C2BF2001F5F800FB4EDD /* 加号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号.png"; sourceTree = "<group>"; };
+		4649C44420048648001F88B2 /* 启动3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "启动3.png"; sourceTree = "<group>"; };
+		4649C44820048BC0001F88B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4649C44A20048BCE001F88B2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4649C44C20048BDB001F88B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4649C44E20048BE7001F88B2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4649C45020048BEF001F88B2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4649C45220048C03001F88B2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4649C45420048C0B001F88B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4649C45620048C18001F88B2 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		4649C45820048C2F001F88B2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		4649C45A20048C3D001F88B2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4649C45C20048C4C001F88B2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4649C45E20048C59001F88B2 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		464BA9351FF9148D0031378B /* 上传_按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传_按下.png"; sourceTree = "<group>"; };
+		464BA9361FF9148D0031378B /* 上传.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传.png"; sourceTree = "<group>"; };
+		464BA9391FF9202E0031378B /* 头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像.png"; sourceTree = "<group>"; };
+		464BDF011FF7412F009959D6 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		464BDF021FF7412F009959D6 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		464BDF071FF7418F009959D6 /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		464BDF081FF7418F009959D6 /* ClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
+		464BDF0A1FF741DB009959D6 /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		464BDF0B1FF741DB009959D6 /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		464BDF0D1FF741EF009959D6 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		464BDF0E1FF741EF009959D6 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		464BDF101FF7425D009959D6 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		464BDF111FF7425D009959D6 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		464C912F200342CA000938FC /* UserInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewCell.h; sourceTree = "<group>"; };
+		464C9130200342CA000938FC /* UserInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewCell.m; sourceTree = "<group>"; };
+		464C913420034FFF000938FC /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		464C913520034FFF000938FC /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		465935B5202ED6450034F59D /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		465935B6202ED6450034F59D /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		465935B8202EE4290034F59D /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		465935B9202EE4290034F59D /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		465935BC202F0AA90034F59D /* 圆形_未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆形_未选中.png"; sourceTree = "<group>"; };
+		465935BD202F0AA90034F59D /* 圆形_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆形_选中.png"; sourceTree = "<group>"; };
+		465935C1202F15490034F59D /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		465935C2202F15490034F59D /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		465B9D8A202C0B440087D1D5 /* 网络好像不给力.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "网络好像不给力.png"; sourceTree = "<group>"; };
+		46C45D091FF76579002E5A51 /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
+		46C45D0A1FF76579002E5A51 /* 我的_按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的_按下.png"; sourceTree = "<group>"; };
+		46C45D111FF766CB002E5A51 /* 课堂_按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课堂_按下.png"; sourceTree = "<group>"; };
+		46C45D121FF766CB002E5A51 /* 课堂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课堂.png"; sourceTree = "<group>"; };
+		46CB897420296389003773B7 /* appLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appLogo.png; sourceTree = "<group>"; };
+		46DFC2CE1FF6036700712D13 /* 教学辅助平台-教师端.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "教学辅助平台-教师端.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DFC2D21FF6036700712D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46DFC2D41FF6036700712D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46DFC2D51FF6036700712D13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46DFC2DB1FF6036700712D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46DFC2DD1FF6036700712D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46DFC2E01FF6036700712D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46DFC2E21FF6036700712D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DFC2E71FF6036700712D13 /* 教学辅助平台-教师端Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "教学辅助平台-教师端Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DFC2EB1FF6036700712D13 /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________Tests.m"; sourceTree = "<group>"; };
+		46DFC2ED1FF6036700712D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DFC2F21FF6036700712D13 /* 教学辅助平台-教师端UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "教学辅助平台-教师端UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DFC2F61FF6036700712D13 /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
+		46DFC2F81FF6036700712D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E9782D202AF4A200A23988 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		46E9782E202AF4A200A23988 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		46E97831202B14BF00A23988 /* TransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionView.h; sourceTree = "<group>"; };
+		46E97832202B14BF00A23988 /* TransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionView.m; sourceTree = "<group>"; };
+		46E97835202B19C900A23988 /* NoClassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoClassView.h; sourceTree = "<group>"; };
+		46E97836202B19C900A23988 /* NoClassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoClassView.m; sourceTree = "<group>"; };
+		46E9783C202B446900A23988 /* FailedLoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedLoding.h; sourceTree = "<group>"; };
+		46E9783D202B446900A23988 /* FailedLoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedLoding.m; sourceTree = "<group>"; };
+		46F23D2520024950005BE629 /* NewClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClassViewController.h; sourceTree = "<group>"; };
+		46F23D2620024950005BE629 /* NewClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClassViewController.m; sourceTree = "<group>"; };
+		46F23D2820024C2E005BE629 /* 上传图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传图片.png"; sourceTree = "<group>"; };
+		4BBE936CBB90171B72C3ABD3 /* Pods-教学辅助平台-教师端UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-教学辅助平台-教师端UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-教学辅助平台-教师端UITests/Pods-教学辅助平台-教师端UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B8F85696DC8ADEF3A4248A3 /* libPods-教学辅助平台-教师端UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-教学辅助平台-教师端UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF252D0439B0C3C0B0B265B /* libPods-教学辅助平台-教师端Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-教学辅助平台-教师端Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67BD324DF6A483C9E2588D5 /* Pods-教学辅助平台-教师端.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-教学辅助平台-教师端.debug.xcconfig"; path = "Pods/Target Support Files/Pods-教学辅助平台-教师端/Pods-教学辅助平台-教师端.debug.xcconfig"; sourceTree = "<group>"; };
+		CD8C2DE2CA86FD49AB341DAB /* libPods-教学辅助平台-教师端.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-教学辅助平台-教师端.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1ED6720C53E6BAE0BBD165 /* Pods-教学辅助平台-教师端UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-教学辅助平台-教师端UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-教学辅助平台-教师端UITests/Pods-教学辅助平台-教师端UITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB0F51F1A27A9B727D775E5E /* Pods-教学辅助平台-教师端Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-教学辅助平台-教师端Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-教学辅助平台-教师端Tests/Pods-教学辅助平台-教师端Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46DFC2CB1FF6036700712D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4649C45F20048C59001F88B2 /* Photos.framework in Frameworks */,
+				4649C45D20048C4C001F88B2 /* libc++.tbd in Frameworks */,
+				4649C45B20048C3D001F88B2 /* libsqlite3.tbd in Frameworks */,
+				4649C45920048C2F001F88B2 /* libicucore.tbd in Frameworks */,
+				4649C45720048C18001F88B2 /* libz.1.2.5.tbd in Frameworks */,
+				4649C45520048C0B001F88B2 /* SystemConfiguration.framework in Frameworks */,
+				4649C45320048C03001F88B2 /* CoreTelephony.framework in Frameworks */,
+				4649C45120048BEF001F88B2 /* CFNetwork.framework in Frameworks */,
+				4649C44F20048BE7001F88B2 /* MobileCoreServices.framework in Frameworks */,
+				4649C44D20048BDB001F88B2 /* CoreGraphics.framework in Frameworks */,
+				4649C44B20048BCE001F88B2 /* Security.framework in Frameworks */,
+				4649C44920048BC0001F88B2 /* CoreLocation.framework in Frameworks */,
+				E7BA11B7C578F777F239F360 /* libPods-教学辅助平台-教师端.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DFC2E41FF6036700712D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEB84AB34B067293E6EB0AB /* libPods-教学辅助平台-教师端Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DFC2EF1FF6036700712D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4627843BA912BA4537CE6D1 /* libPods-教学辅助平台-教师端UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1C6DDC203C617300374171 /* 新作业 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DDD203C617300374171 /* NewHomeworkViewController.h */,
+				2E1C6DDE203C617300374171 /* NewHomeworkViewController.m */,
+				2E1C6DDF203C617300374171 /* 选择题 */,
+				2E1C6DEB203C617300374171 /* NewHomeworkTableViewCell */,
+			);
+			path = "新作业";
+			sourceTree = "<group>";
+		};
+		2E1C6DDF203C617300374171 /* 选择题 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DE0203C617300374171 /* 题库 */,
+				2E1C6DE6203C617300374171 /* ChoiceViewController.h */,
+				2E1C6DE7203C617300374171 /* ChoiceViewController.m */,
+				2E1C6DE8203C617300374171 /* 图片 */,
+			);
+			path = "选择题";
+			sourceTree = "<group>";
+		};
+		2E1C6DE0203C617300374171 /* 题库 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DE1203C617300374171 /* QuestionBankViewController.h */,
+				2E1C6DE2203C617300374171 /* QuestionBankViewController.m */,
+				2E1C6DE3203C617300374171 /* QuestionBankTableViewCell */,
+			);
+			path = "题库";
+			sourceTree = "<group>";
+		};
+		2E1C6DE3203C617300374171 /* QuestionBankTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DE4203C617300374171 /* QuestionBankTableViewCell.m */,
+				2E1C6DE5203C617300374171 /* QuestionBankTableViewCell.h */,
+			);
+			path = QuestionBankTableViewCell;
+			sourceTree = "<group>";
+		};
+		2E1C6DE8203C617300374171 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DE9203C617300374171 /* 方形_选中.png */,
+				2E1C6DEA203C617300374171 /* 方形_未选中.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		2E1C6DEB203C617300374171 /* NewHomeworkTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DEC203C617300374171 /* NewHomeworkTableViewCell.h */,
+				2E1C6DED203C617300374171 /* NewHomeworkTableViewCell.m */,
+			);
+			path = NewHomeworkTableViewCell;
+			sourceTree = "<group>";
+		};
+		2E1C6DF5203C618000374171 /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DF6203C618000374171 /* 无网络界面 */,
+				2E1C6DFB203C618000374171 /* 标题界面 */,
+				2E1C6DFE203C618000374171 /* 过渡界面 */,
+			);
+			path = "自定义控件";
+			sourceTree = "<group>";
+		};
+		2E1C6DF6203C618000374171 /* 无网络界面 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DF7203C618000374171 /* NoNetWorkingView.m */,
+				2E1C6DF8203C618000374171 /* NoNetWorkingView.h */,
+				2E1C6DF9203C618000374171 /* 图片 */,
+			);
+			path = "无网络界面";
+			sourceTree = "<group>";
+		};
+		2E1C6DF9203C618000374171 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DFA203C618000374171 /* 网络无法连接.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		2E1C6DFB203C618000374171 /* 标题界面 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DFC203C618000374171 /* TitleView.m */,
+				2E1C6DFD203C618000374171 /* TitleView.h */,
+			);
+			path = "标题界面";
+			sourceTree = "<group>";
+		};
+		2E1C6DFE203C618000374171 /* 过渡界面 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DFF203C618000374171 /* Transition2View.m */,
+				2E1C6E00203C618000374171 /* Transition2View.h */,
+			);
+			path = "过渡界面";
+			sourceTree = "<group>";
+		};
+		4606827F203B9B92001374A5 /* 课堂信息 */ = {
+			isa = PBXGroup;
+			children = (
+				46068283203BAAAD001374A5 /* 当前作业 */,
+				46068280203B9BFD001374A5 /* CourseInfoViewController.h */,
+				46068281203B9BFD001374A5 /* CourseInfoViewController.m */,
+			);
+			name = "课堂信息";
+			sourceTree = "<group>";
+		};
+		46068283203BAAAD001374A5 /* 当前作业 */ = {
+			isa = PBXGroup;
+			children = (
+				4606828B203BE207001374A5 /* 选择题 */,
+				46068289203BB4F8001374A5 /* 向左箭头.png */,
+				46068284203BAAC7001374A5 /* CurrentWorkViewController.h */,
+				46068285203BAAC7001374A5 /* CurrentWorkViewController.m */,
+			);
+			name = "当前作业";
+			sourceTree = "<group>";
+		};
+		4606828B203BE207001374A5 /* 选择题 */ = {
+			isa = PBXGroup;
+			children = (
+				4606828C203BE21A001374A5 /* ChoiceQuestionViewController.h */,
+				4606828D203BE21A001374A5 /* ChoiceQuestionViewController.m */,
+			);
+			name = "选择题";
+			sourceTree = "<group>";
+		};
+		460C5D991FFBC54D0024C0C7 /* 常见问题 */ = {
+			isa = PBXGroup;
+			children = (
+				460C5D9A1FFBC56B0024C0C7 /* FAQViewController.h */,
+				460C5D9B1FFBC56B0024C0C7 /* FAQViewController.m */,
+			);
+			name = "常见问题";
+			sourceTree = "<group>";
+		};
+		460C5D9D1FFBC57D0024C0C7 /* 关于我们 */ = {
+			isa = PBXGroup;
+			children = (
+				461D15C21FFC8E0E0006F252 /* AboutUsViewController.h */,
+				461D15C31FFC8E0E0006F252 /* AboutUsViewController.m */,
+			);
+			name = "关于我们";
+			sourceTree = "<group>";
+		};
+		460CA4151FF9DE89001F3C17 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				460F057C2000FBD500F4B063 /* 图片 */,
+				460CA41A1FF9DF0E001F3C17 /* LoginViewController.h */,
+				460CA41B1FF9DF0E001F3C17 /* LoginViewController.m */,
+			);
+			name = "登录";
+			sourceTree = "<group>";
+		};
+		460CA4161FF9DE9B001F3C17 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				460CA4171FF9DEE9001F3C17 /* RegisterViewController.h */,
+				460CA4181FF9DEE9001F3C17 /* RegisterViewController.m */,
+			);
+			name = "注册";
+			sourceTree = "<group>";
+		};
+		460F057C2000FBD500F4B063 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				46CB897420296389003773B7 /* appLogo.png */,
+				4610A1551FFA0EDA00945876 /* line.png */,
+			);
+			name = "图片";
+			sourceTree = "<group>";
+		};
+		461D15C51FFC8E280006F252 /* 修改密码 */ = {
+			isa = PBXGroup;
+			children = (
+				461D15C61FFC8EA30006F252 /* ChangePasswordViewController.h */,
+				461D15C71FFC8EA30006F252 /* ChangePasswordViewController.m */,
+			);
+			name = "修改密码";
+			sourceTree = "<group>";
+		};
+		461D15C91FFC95B30006F252 /* 修改用户信息 */ = {
+			isa = PBXGroup;
+			children = (
+				464C9132200342DB000938FC /* 自定义cell */,
+				464C913320034FB5000938FC /* 自定义textfield */,
+				461D15CA1FFC95DA0006F252 /* ChangeUserInfoViewController.h */,
+				461D15CB1FFC95DA0006F252 /* ChangeUserInfoViewController.m */,
+			);
+			name = "修改用户信息";
+			sourceTree = "<group>";
+		};
+		4649C2BA2001F43E00FB4EDD /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				4604964420396B2700018E66 /* class.png */,
+				46F23D2820024C2E005BE629 /* 上传图片.png */,
+				4649C2BF2001F5F800FB4EDD /* 加号.png */,
+			);
+			name = "图片";
+			sourceTree = "<group>";
+		};
+		464BDF041FF7413E009959D6 /* 课堂 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C6DF5203C618000374171 /* 自定义控件 */,
+				2E1C6DDC203C617300374171 /* 新作业 */,
+				4606827F203B9B92001374A5 /* 课堂信息 */,
+				46E97834202B199D00A23988 /* 暂无课堂 */,
+				46F23D24200248D4005BE629 /* 新建课堂 */,
+				464BDF071FF7418F009959D6 /* ClassViewController.h */,
+				464BDF081FF7418F009959D6 /* ClassViewController.m */,
+				4649C2BA2001F43E00FB4EDD /* 图片 */,
+			);
+			name = "课堂";
+			sourceTree = "<group>";
+		};
+		464BDF051FF7414A009959D6 /* 上传 */ = {
+			isa = PBXGroup;
+			children = (
+				464BDF0A1FF741DB009959D6 /* UploadViewController.h */,
+				464BDF0B1FF741DB009959D6 /* UploadViewController.m */,
+			);
+			name = "上传";
+			sourceTree = "<group>";
+		};
+		464BDF061FF74161009959D6 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				465935B4202ED5B80034F59D /* 意见反馈 */,
+				461D15C91FFC95B30006F252 /* 修改用户信息 */,
+				461D15C51FFC8E280006F252 /* 修改密码 */,
+				460C5D9D1FFBC57D0024C0C7 /* 关于我们 */,
+				460C5D991FFBC54D0024C0C7 /* 常见问题 */,
+				464BA9391FF9202E0031378B /* 头像.png */,
+				464BDF0D1FF741EF009959D6 /* MyViewController.h */,
+				464BDF0E1FF741EF009959D6 /* MyViewController.m */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		464BDF131FF742B5009959D6 /* MainTabbar图标 */ = {
+			isa = PBXGroup;
+			children = (
+				46C45D111FF766CB002E5A51 /* 课堂_按下.png */,
+				46C45D121FF766CB002E5A51 /* 课堂.png */,
+				46C45D091FF76579002E5A51 /* 我的.png */,
+				464BA9351FF9148D0031378B /* 上传_按下.png */,
+				464BA9361FF9148D0031378B /* 上传.png */,
+				46C45D0A1FF76579002E5A51 /* 我的_按下.png */,
+			);
+			name = "MainTabbar图标";
+			sourceTree = "<group>";
+		};
+		464C9132200342DB000938FC /* 自定义cell */ = {
+			isa = PBXGroup;
+			children = (
+				464C912F200342CA000938FC /* UserInfoTableViewCell.h */,
+				464C9130200342CA000938FC /* UserInfoTableViewCell.m */,
+			);
+			name = "自定义cell";
+			sourceTree = "<group>";
+		};
+		464C913320034FB5000938FC /* 自定义textfield */ = {
+			isa = PBXGroup;
+			children = (
+				464C913420034FFF000938FC /* CustomTextField.h */,
+				464C913520034FFF000938FC /* CustomTextField.m */,
+			);
+			name = "自定义textfield";
+			sourceTree = "<group>";
+		};
+		464C913F200394FA000938FC /* 用户管理单例 */ = {
+			isa = PBXGroup;
+			children = (
+				46E9782D202AF4A200A23988 /* UserManager.h */,
+				46E9782E202AF4A200A23988 /* UserManager.m */,
+			);
+			name = "用户管理单例";
+			sourceTree = "<group>";
+		};
+		465935B4202ED5B80034F59D /* 意见反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				465935C0202F14A60034F59D /* 自定义TextView */,
+				465935BB202EE42D0034F59D /* 自定义cell */,
+				465935B5202ED6450034F59D /* FeedBackViewController.h */,
+				465935B6202ED6450034F59D /* FeedBackViewController.m */,
+			);
+			name = "意见反馈";
+			sourceTree = "<group>";
+		};
+		465935BB202EE42D0034F59D /* 自定义cell */ = {
+			isa = PBXGroup;
+			children = (
+				465935BC202F0AA90034F59D /* 圆形_未选中.png */,
+				465935BD202F0AA90034F59D /* 圆形_选中.png */,
+				465935B8202EE4290034F59D /* CustomTableViewCell.h */,
+				465935B9202EE4290034F59D /* CustomTableViewCell.m */,
+			);
+			name = "自定义cell";
+			sourceTree = "<group>";
+		};
+		465935C0202F14A60034F59D /* 自定义TextView */ = {
+			isa = PBXGroup;
+			children = (
+				465935C1202F15490034F59D /* UITextView+Placeholder.h */,
+				465935C2202F15490034F59D /* UITextView+Placeholder.m */,
+			);
+			name = "自定义TextView";
+			sourceTree = "<group>";
+		};
+		46DFC2C51FF6036700712D13 = {
+			isa = PBXGroup;
+			children = (
+				46DFC2D01FF6036700712D13 /* 教学辅助平台-教师端 */,
+				46DFC2EA1FF6036700712D13 /* 教学辅助平台-教师端Tests */,
+				46DFC2F51FF6036700712D13 /* 教学辅助平台-教师端UITests */,
+				46DFC2CF1FF6036700712D13 /* Products */,
+				D3FE876638D533488D3A5088 /* Pods */,
+				F21DC525C890E060E24A22EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46DFC2CF1FF6036700712D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46DFC2CE1FF6036700712D13 /* 教学辅助平台-教师端.app */,
+				46DFC2E71FF6036700712D13 /* 教学辅助平台-教师端Tests.xctest */,
+				46DFC2F21FF6036700712D13 /* 教学辅助平台-教师端UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46DFC2D01FF6036700712D13 /* 教学辅助平台-教师端 */ = {
+			isa = PBXGroup;
+			children = (
+				46E9783F202B446F00A23988 /* 加载失败 */,
+				46E9783C202B446900A23988 /* FailedLoding.h */,
+				46E9783D202B446900A23988 /* FailedLoding.m */,
+				46E97830202B13DA00A23988 /* 过渡动画 */,
+				464C913F200394FA000938FC /* 用户管理单例 */,
+				460CA4161FF9DE9B001F3C17 /* 注册 */,
+				460CA4151FF9DE89001F3C17 /* 登录 */,
+				464BDF131FF742B5009959D6 /* MainTabbar图标 */,
+				46DFC2D41FF6036700712D13 /* AppDelegate.h */,
+				46DFC2D51FF6036700712D13 /* AppDelegate.m */,
+				464BDF011FF7412F009959D6 /* MainTabBarController.h */,
+				464BDF021FF7412F009959D6 /* MainTabBarController.m */,
+				464BDF101FF7425D009959D6 /* MyNavigationController.h */,
+				464BDF111FF7425D009959D6 /* MyNavigationController.m */,
+				464BDF061FF74161009959D6 /* 我的 */,
+				464BDF051FF7414A009959D6 /* 上传 */,
+				464BDF041FF7413E009959D6 /* 课堂 */,
+				46DFC2DA1FF6036700712D13 /* Main.storyboard */,
+				46DFC2DD1FF6036700712D13 /* Assets.xcassets */,
+				46DFC2DF1FF6036700712D13 /* LaunchScreen.storyboard */,
+				46DFC2E21FF6036700712D13 /* Info.plist */,
+				46DFC2D11FF6036700712D13 /* Supporting Files */,
+			);
+			path = "教学辅助平台-教师端";
+			sourceTree = "<group>";
+		};
+		46DFC2D11FF6036700712D13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4649C44420048648001F88B2 /* 启动3.png */,
+				46DFC2D21FF6036700712D13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46DFC2EA1FF6036700712D13 /* 教学辅助平台-教师端Tests */ = {
+			isa = PBXGroup;
+			children = (
+				46DFC2EB1FF6036700712D13 /* __________Tests.m */,
+				46DFC2ED1FF6036700712D13 /* Info.plist */,
+			);
+			path = "教学辅助平台-教师端Tests";
+			sourceTree = "<group>";
+		};
+		46DFC2F51FF6036700712D13 /* 教学辅助平台-教师端UITests */ = {
+			isa = PBXGroup;
+			children = (
+				46DFC2F61FF6036700712D13 /* __________UITests.m */,
+				46DFC2F81FF6036700712D13 /* Info.plist */,
+			);
+			path = "教学辅助平台-教师端UITests";
+			sourceTree = "<group>";
+		};
+		46E97830202B13DA00A23988 /* 过渡动画 */ = {
+			isa = PBXGroup;
+			children = (
+				46E97831202B14BF00A23988 /* TransitionView.h */,
+				46E97832202B14BF00A23988 /* TransitionView.m */,
+			);
+			name = "过渡动画";
+			sourceTree = "<group>";
+		};
+		46E97834202B199D00A23988 /* 暂无课堂 */ = {
+			isa = PBXGroup;
+			children = (
+				46E97835202B19C900A23988 /* NoClassView.h */,
+				46E97836202B19C900A23988 /* NoClassView.m */,
+			);
+			name = "暂无课堂";
+			sourceTree = "<group>";
+		};
+		46E9783F202B446F00A23988 /* 加载失败 */ = {
+			isa = PBXGroup;
+			children = (
+				465B9D8A202C0B440087D1D5 /* 网络好像不给力.png */,
+			);
+			name = "加载失败";
+			sourceTree = "<group>";
+		};
+		46F23D24200248D4005BE629 /* 新建课堂 */ = {
+			isa = PBXGroup;
+			children = (
+				46F23D2520024950005BE629 /* NewClassViewController.h */,
+				46F23D2620024950005BE629 /* NewClassViewController.m */,
+			);
+			name = "新建课堂";
+			sourceTree = "<group>";
+		};
+		D3FE876638D533488D3A5088 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C67BD324DF6A483C9E2588D5 /* Pods-教学辅助平台-教师端.debug.xcconfig */,
+				223CC552E43E4FCCBE2BB660 /* Pods-教学辅助平台-教师端.release.xcconfig */,
+				0AAF099DCB2D7695C39FC5EE /* Pods-教学辅助平台-教师端Tests.debug.xcconfig */,
+				FB0F51F1A27A9B727D775E5E /* Pods-教学辅助平台-教师端Tests.release.xcconfig */,
+				4BBE936CBB90171B72C3ABD3 /* Pods-教学辅助平台-教师端UITests.debug.xcconfig */,
+				ED1ED6720C53E6BAE0BBD165 /* Pods-教学辅助平台-教师端UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F21DC525C890E060E24A22EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4649C45E20048C59001F88B2 /* Photos.framework */,
+				4649C45C20048C4C001F88B2 /* libc++.tbd */,
+				4649C45A20048C3D001F88B2 /* libsqlite3.tbd */,
+				4649C45820048C2F001F88B2 /* libicucore.tbd */,
+				4649C45620048C18001F88B2 /* libz.1.2.5.tbd */,
+				4649C45420048C0B001F88B2 /* SystemConfiguration.framework */,
+				4649C45220048C03001F88B2 /* CoreTelephony.framework */,
+				4649C45020048BEF001F88B2 /* CFNetwork.framework */,
+				4649C44E20048BE7001F88B2 /* MobileCoreServices.framework */,
+				4649C44C20048BDB001F88B2 /* CoreGraphics.framework */,
+				4649C44A20048BCE001F88B2 /* Security.framework */,
+				4649C44820048BC0001F88B2 /* CoreLocation.framework */,
+				CD8C2DE2CA86FD49AB341DAB /* libPods-教学辅助平台-教师端.a */,
+				9FF252D0439B0C3C0B0B265B /* libPods-教学辅助平台-教师端Tests.a */,
+				5B8F85696DC8ADEF3A4248A3 /* libPods-教学辅助平台-教师端UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46DFC2CD1FF6036700712D13 /* 教学辅助平台-教师端 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DFC2FB1FF6036700712D13 /* Build configuration list for PBXNativeTarget "教学辅助平台-教师端" */;
+			buildPhases = (
+				63EDBB761CD8F3CAC77762AF /* [CP] Check Pods Manifest.lock */,
+				46DFC2CA1FF6036700712D13 /* Sources */,
+				46DFC2CB1FF6036700712D13 /* Frameworks */,
+				46DFC2CC1FF6036700712D13 /* Resources */,
+				EA458EB4D4D9537CB6F7FC98 /* [CP] Embed Pods Frameworks */,
+				DDECC7B5BEA6BB43FC05A9D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "教学辅助平台-教师端";
+			productName = "教学辅助平台-教师端";
+			productReference = 46DFC2CE1FF6036700712D13 /* 教学辅助平台-教师端.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46DFC2E61FF6036700712D13 /* 教学辅助平台-教师端Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DFC2FE1FF6036700712D13 /* Build configuration list for PBXNativeTarget "教学辅助平台-教师端Tests" */;
+			buildPhases = (
+				8815B0BFE76B1237708EDF98 /* [CP] Check Pods Manifest.lock */,
+				46DFC2E31FF6036700712D13 /* Sources */,
+				46DFC2E41FF6036700712D13 /* Frameworks */,
+				46DFC2E51FF6036700712D13 /* Resources */,
+				EF1A83D9D8E46B8DFD7601EB /* [CP] Embed Pods Frameworks */,
+				C51DDDEF675EE07934DE8362 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DFC2E91FF6036700712D13 /* PBXTargetDependency */,
+			);
+			name = "教学辅助平台-教师端Tests";
+			productName = "教学辅助平台-教师端Tests";
+			productReference = 46DFC2E71FF6036700712D13 /* 教学辅助平台-教师端Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46DFC2F11FF6036700712D13 /* 教学辅助平台-教师端UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DFC3011FF6036700712D13 /* Build configuration list for PBXNativeTarget "教学辅助平台-教师端UITests" */;
+			buildPhases = (
+				55C22054DFCDDD1A92D63DB8 /* [CP] Check Pods Manifest.lock */,
+				46DFC2EE1FF6036700712D13 /* Sources */,
+				46DFC2EF1FF6036700712D13 /* Frameworks */,
+				46DFC2F01FF6036700712D13 /* Resources */,
+				FF867BBC95CD3C4E2390AB2F /* [CP] Embed Pods Frameworks */,
+				11AFD052630330AF24042193 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DFC2F41FF6036700712D13 /* PBXTargetDependency */,
+			);
+			name = "教学辅助平台-教师端UITests";
+			productName = "教学辅助平台-教师端UITests";
+			productReference = 46DFC2F21FF6036700712D13 /* 教学辅助平台-教师端UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46DFC2C61FF6036700712D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李梦珂";
+				TargetAttributes = {
+					46DFC2CD1FF6036700712D13 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					46DFC2E61FF6036700712D13 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46DFC2CD1FF6036700712D13;
+					};
+					46DFC2F11FF6036700712D13 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46DFC2CD1FF6036700712D13;
+					};
+				};
+			};
+			buildConfigurationList = 46DFC2C91FF6036700712D13 /* Build configuration list for PBXProject "教学辅助平台-教师端" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46DFC2C51FF6036700712D13;
+			productRefGroup = 46DFC2CF1FF6036700712D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46DFC2CD1FF6036700712D13 /* 教学辅助平台-教师端 */,
+				46DFC2E61FF6036700712D13 /* 教学辅助平台-教师端Tests */,
+				46DFC2F11FF6036700712D13 /* 教学辅助平台-教师端UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46DFC2CC1FF6036700712D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4649C2C02001F5F800FB4EDD /* 加号.png in Resources */,
+				465935BE202F0AA90034F59D /* 圆形_未选中.png in Resources */,
+				464BA93A1FF9202E0031378B /* 头像.png in Resources */,
+				46C45D101FF76579002E5A51 /* 我的_按下.png in Resources */,
+				464BA9371FF9148D0031378B /* 上传_按下.png in Resources */,
+				464BA9381FF9148D0031378B /* 上传.png in Resources */,
+				46F23D2920024C2E005BE629 /* 上传图片.png in Resources */,
+				465935BF202F0AA90034F59D /* 圆形_选中.png in Resources */,
+				4649C44520048648001F88B2 /* 启动3.png in Resources */,
+				2E1C6DF2203C617300374171 /* 方形_选中.png in Resources */,
+				2E1C6E02203C618000374171 /* 网络无法连接.png in Resources */,
+				4610A1561FFA0EDA00945876 /* line.png in Resources */,
+				4604964520396B2700018E66 /* class.png in Resources */,
+				4606828A203BB4F8001374A5 /* 向左箭头.png in Resources */,
+				465B9D8B202C0B440087D1D5 /* 网络好像不给力.png in Resources */,
+				46DFC2E11FF6036700712D13 /* LaunchScreen.storyboard in Resources */,
+				46DFC2DE1FF6036700712D13 /* Assets.xcassets in Resources */,
+				46CB897520296389003773B7 /* appLogo.png in Resources */,
+				46C45D141FF766CB002E5A51 /* 课堂.png in Resources */,
+				46DFC2DC1FF6036700712D13 /* Main.storyboard in Resources */,
+				46C45D0F1FF76579002E5A51 /* 我的.png in Resources */,
+				46C45D131FF766CB002E5A51 /* 课堂_按下.png in Resources */,
+				2E1C6DF3203C617300374171 /* 方形_未选中.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DFC2E51FF6036700712D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DFC2F01FF6036700712D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11AFD052630330AF24042193 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-教学辅助平台-教师端UITests/Pods-教学辅助平台-教师端UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C22054DFCDDD1A92D63DB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63EDBB761CD8F3CAC77762AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8815B0BFE76B1237708EDF98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C51DDDEF675EE07934DE8362 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-教学辅助平台-教师端Tests/Pods-教学辅助平台-教师端Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDECC7B5BEA6BB43FC05A9D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-教学辅助平台-教师端/Pods-教学辅助平台-教师端-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA458EB4D4D9537CB6F7FC98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-教学辅助平台-教师端/Pods-教学辅助平台-教师端-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1A83D9D8E46B8DFD7601EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-教学辅助平台-教师端Tests/Pods-教学辅助平台-教师端Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF867BBC95CD3C4E2390AB2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-教学辅助平台-教师端UITests/Pods-教学辅助平台-教师端UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46DFC2CA1FF6036700712D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465935B7202ED6450034F59D /* FeedBackViewController.m in Sources */,
+				46E9782F202AF4A200A23988 /* UserManager.m in Sources */,
+				464C913620034FFF000938FC /* CustomTextField.m in Sources */,
+				465935C3202F15490034F59D /* UITextView+Placeholder.m in Sources */,
+				46F23D2720024950005BE629 /* NewClassViewController.m in Sources */,
+				461D15CC1FFC95DA0006F252 /* ChangeUserInfoViewController.m in Sources */,
+				464BDF0F1FF741EF009959D6 /* MyViewController.m in Sources */,
+				2E1C6E04203C618000374171 /* Transition2View.m in Sources */,
+				46E97837202B19C900A23988 /* NoClassView.m in Sources */,
+				461D15C81FFC8EA30006F252 /* ChangePasswordViewController.m in Sources */,
+				464BDF121FF7425D009959D6 /* MyNavigationController.m in Sources */,
+				46DFC2D61FF6036700712D13 /* AppDelegate.m in Sources */,
+				460CA4191FF9DEE9001F3C17 /* RegisterViewController.m in Sources */,
+				46E97833202B14BF00A23988 /* TransitionView.m in Sources */,
+				2E1C6E01203C618000374171 /* NoNetWorkingView.m in Sources */,
+				2E1C6DF1203C617300374171 /* ChoiceViewController.m in Sources */,
+				464BDF091FF7418F009959D6 /* ClassViewController.m in Sources */,
+				46068286203BAAC7001374A5 /* CurrentWorkViewController.m in Sources */,
+				2E1C6DF0203C617300374171 /* QuestionBankTableViewCell.m in Sources */,
+				460C5D9C1FFBC56B0024C0C7 /* FAQViewController.m in Sources */,
+				2E1C6DF4203C617300374171 /* NewHomeworkTableViewCell.m in Sources */,
+				460CA41C1FF9DF0E001F3C17 /* LoginViewController.m in Sources */,
+				2E1C6DEE203C617300374171 /* NewHomeworkViewController.m in Sources */,
+				461D15C41FFC8E0E0006F252 /* AboutUsViewController.m in Sources */,
+				46068282203B9BFD001374A5 /* CourseInfoViewController.m in Sources */,
+				4606828E203BE21A001374A5 /* ChoiceQuestionViewController.m in Sources */,
+				465935BA202EE4290034F59D /* CustomTableViewCell.m in Sources */,
+				464C9131200342CA000938FC /* UserInfoTableViewCell.m in Sources */,
+				46DFC2D31FF6036700712D13 /* main.m in Sources */,
+				464BDF0C1FF741DB009959D6 /* UploadViewController.m in Sources */,
+				464BDF031FF7412F009959D6 /* MainTabBarController.m in Sources */,
+				2E1C6DEF203C617300374171 /* QuestionBankViewController.m in Sources */,
+				2E1C6E03203C618000374171 /* TitleView.m in Sources */,
+				46E9783E202B446900A23988 /* FailedLoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DFC2E31FF6036700712D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DFC2EC1FF6036700712D13 /* __________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DFC2EE1FF6036700712D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DFC2F71FF6036700712D13 /* __________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46DFC2E91FF6036700712D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46DFC2CD1FF6036700712D13 /* 教学辅助平台-教师端 */;
+			targetProxy = 46DFC2E81FF6036700712D13 /* PBXContainerItemProxy */;
+		};
+		46DFC2F41FF6036700712D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46DFC2CD1FF6036700712D13 /* 教学辅助平台-教师端 */;
+			targetProxy = 46DFC2F31FF6036700712D13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46DFC2DA1FF6036700712D13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46DFC2DB1FF6036700712D13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46DFC2DF1FF6036700712D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46DFC2E01FF6036700712D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46DFC2F91FF6036700712D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46DFC2FA1FF6036700712D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46DFC2FC1FF6036700712D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67BD324DF6A483C9E2588D5 /* Pods-教学辅助平台-教师端.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "教学辅助平台-教师端/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiyou3g.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46DFC2FD1FF6036700712D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223CC552E43E4FCCBE2BB660 /* Pods-教学辅助平台-教师端.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "教学辅助平台-教师端/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiyou3g.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46DFC2FF1FF6036700712D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAF099DCB2D7695C39FC5EE /* Pods-教学辅助平台-教师端Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "教学辅助平台-教师端Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiyou3g.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/教学辅助平台-教师端.app/教学辅助平台-教师端";
+			};
+			name = Debug;
+		};
+		46DFC3001FF6036700712D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB0F51F1A27A9B727D775E5E /* Pods-教学辅助平台-教师端Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "教学辅助平台-教师端Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiyou3g.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/教学辅助平台-教师端.app/教学辅助平台-教师端";
+			};
+			name = Release;
+		};
+		46DFC3021FF6036700712D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBE936CBB90171B72C3ABD3 /* Pods-教学辅助平台-教师端UITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "教学辅助平台-教师端UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiyou3g.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "教学辅助平台-教师端";
+			};
+			name = Debug;
+		};
+		46DFC3031FF6036700712D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1ED6720C53E6BAE0BBD165 /* Pods-教学辅助平台-教师端UITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "教学辅助平台-教师端UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiyou3g.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "教学辅助平台-教师端";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46DFC2C91FF6036700712D13 /* Build configuration list for PBXProject "教学辅助平台-教师端" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DFC2F91FF6036700712D13 /* Debug */,
+				46DFC2FA1FF6036700712D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DFC2FB1FF6036700712D13 /* Build configuration list for PBXNativeTarget "教学辅助平台-教师端" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DFC2FC1FF6036700712D13 /* Debug */,
+				46DFC2FD1FF6036700712D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DFC2FE1FF6036700712D13 /* Build configuration list for PBXNativeTarget "教学辅助平台-教师端Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DFC2FF1FF6036700712D13 /* Debug */,
+				46DFC3001FF6036700712D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DFC3011FF6036700712D13 /* Build configuration list for PBXNativeTarget "教学辅助平台-教师端UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DFC3021FF6036700712D13 /* Debug */,
+				46DFC3031FF6036700712D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46DFC2C61FF6036700712D13 /* Project object */;
+}

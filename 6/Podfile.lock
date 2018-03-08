@@ -1,0 +1,15 @@
+PODS:
+  - BmobSDK (1.7.2)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - BmobSDK
+  - Masonry
+
+SPEC CHECKSUMS:
+  BmobSDK: e188cb31d6a8417ab668aee821da227d7512b865
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 124c166e7671351b9fffd5d4191a56140cf0f926
+
+COCOAPODS: 1.1.1
